@@ -1,0 +1,109 @@
+body {
+  padding: 0;
+  margin: 0; }
+
+.navbar {
+  background: #181c21 !important; }
+  .navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left: 1em !important;
+    margin-right: 1em !important; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-image-1 {
+  background: url("../img/carousel1.jpeg");
+  background-size: cover; }
+
+.carousel-image-2 {
+  background: url("../img/carousel2.jpeg");
+  background-size: cover; }
+
+.carousel-image-3 {
+  background: url("../img/carousel3.jpeg");
+  background-size: cover; }
+
+#home-icons .fa {
+  font-size: 40px; }
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/sundown.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff; }
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/media.jpg");
+  background-position: 0 -300px;
+  background-attachment: fixed;
+  text-align: center;
+  color: white; }
+  #video-play a {
+    color: white; }
+  #video-play .fa {
+    font-size: 40px; }
+
+#main-footer {
+  background: black;
+  color: white; }
+
+#about-header {
+  height: 200px;
+  background: url("../img/about2.jpeg");
+  background-position: 0 -400px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px; }
+
+#about .about-img {
+  margin-top: -50px; }
+
+#icon-boxes .card {
+  background: #181c21; }
+
+#icon-boxes .fa {
+  font-size: 40px; }
+
+#icon-boxes i {
+  margin-bottom: 10px; }
+
+#services .fa {
+  padding: 10px; }
+
+.prueba {
+  margin-top: -50px; }
+
+#faq.bg-dark {
+  background: #444;
+  color: #fff; }
+  #faq.bg-dark .card {
+    border: #444; }
+    #faq.bg-dark .card a {
+      text-decoration: none;
+      color: #fff; }
+  #faq.bg-dark .card-header {
+    background: #333; }
+  #faq.bg-dark .card-block {
+    background: #333; }
+
+@media (max-width: 576px) {
+  .carousel-item {
+    height: 300px !important; }
+  nav .container {
+    width: 100%; } }
